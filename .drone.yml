@@ -1,3 +1,5 @@
 image: bradrydzewski/python:2.7
+env:
 script:
   - py.test
+notify:
